@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+html {
+	height: 120%;
+	width: 100%;
+	background-color: #1e2628;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.bottone {
+	background-color: #4CAF50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.ulinziale {
+	list-style: none;
+}
+
+.testotop {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #2c373a;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-size: 120%;
+	z-index: 2;
+}
+
+.nomeHotel {
+	font-size: 230%;
+	font-family: 'Playfair Display SC', serif;
+}
+
+/* utilizzo nav per includere uno spazio in cui inserire link, (mi è stato consigliato) */
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li {
+	margin-right: 20px;
+	display: inline;
+
+}
+
+section {
+	position: absolute;
+	top: 20%;
+	padding: 40px;
+}
+
+.benvenuto {
+	font-size: 190%;
+	margin-bottom: 20px;
+}
+
+.testoBenv {
+	font-size: 108%;
+}
+
+@media (max-width:361px) {
+	section {
+		position: absolute;
+		top: 30%;
+		padding: 40px;
+	}
+
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.contenier {
+	position: relative;
+}
+
+.textimg {
+	position: absolute;
+	top: 23%;
+	left: 23%;
+	text-align: center;
+	transform: translateX(-50%);
+	font-family: 'Dela Gothic One', cursive;
+	font-size: 280%;
+	background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.textimg2 {
+	position: absolute;
+	color: white;
+	top: 40%;
+	left: 70%;
+	text-align: center;
+	transform: translateX(-50%);
+	font-family: Verdana, sans-serif;
+	font-size: 160%;
+	background-color: #00000094;
+}
+
+.textimg3 {
+	position: absolute;
+	width: 33%;
+	color: white;
+	top: 70%;
+	left: 19%;
+	text-align: center;
+	transform: translateX(-50%);
+	font-family: Verdana, sans-serif;
+	font-size: 160%;
+	background-color: #00000094;
+}
+
+.textimg4 {
+	position: absolute;
+	width: 38%;
+	color: white;
+	top: 68%;
+	left: 70%;
+	text-align: center;
+	transform: translateX(-50%);
+	font-family: Verdana, sans-serif;
+	font-size: 160%;
+	background-color: #00000094;
+}
+
+
+.testoSBey {
+	position: absolute;
+	top: 31%;
+	transform: translateX(-50%);
+	font-size: 160%;
+	color: white;
+	text-align: left;
+	left: 25%;
+	font-family: Verdana, sans-serif;
+	background-color: #00000094;
+}
+
+.testoSBey2 {
+	position: absolute;
+	top: 34%;
+	transform: translateX(-50%);
+	font-size: 160%;
+	color: white;
+	text-align: left;
+	left: 23.5%;
+	font-family: Verdana, sans-serif;
+	background-color: #00000094;
+}
+
+.hrorz {
+	widht: 100%;
+	height: 10%;
+	background-color: black;
+	position: absolute;
+}
+
+.oriz {
+	width: 100%;
+	height: 10px;
+	background: black;
+	border: black;
+	text-align: left;
+	margin-left: 0;
+	position: absolute;
+	margin-top: -0.6%;
+}
+
+.container2 {
+	position: absolute;
+	top: 168%;
+	text-align: center;
+	width: 100%;
+	height: auto;
+}
+
+.provaresp {
+	width: 100%;
+	text-align: center;
+}
+
+.testoresp {
+	color: #545fa5;
+	font-style: bold;
+	font-size: 220%;
+	font-family: Verdana, sans-serif;
+}
+
+.testorep2 {
+	font-size: 142%;
+	font-family: Verdana, sans-serif;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.fine {
+	position: relative;
+	width: 100%;
+	height: auto;
+	justify-items: center;
+	background-color: #2c373a;
+}
+
+.ciao {
+	position: absolute;
+  left: 70%;
+  top: -8%;
+  font-size: 202%;
+  border: solid #061b20;
+  background: #0a2228;
+}
+
+
+.cognome {
+	position: relative;
+	left: 38%;
+	top: -62%;
+	font-size: 145%;
+}
+
+.nome {
+	position: relative;
+	left: 41%;
+	top: -61%;
+	font-size: 140%;
+}
+
+.inter {
+	position: absolute;
+  top: -57%;
+  left: 10%;
+  font-size: 160%;
+}
+
+@media(max-width: 1920px) {
+	.textimg {
+		top: 18%;
+		left: 28%;
+		font-size: 284%;
+	}
+
+
+	.textimg2 {
+		font-size: 160%;
+		top: 41%;
+		left: 79%;
+		right: -7%;
+	}
+
+	.textimg3 {
+		font-size: 162%;
+		top: 64%;
+		left: 19%;
+	}
+
+	.textimg4 {
+		font-size: 160%;
+		top: 80%;
+		left: 70%;
+	}
+
+
+	.testoSBey {
+		left: 28%;
+		font-size: 140%;
+		top: 29%;
+	}
+
+	.testoSBey2 {
+		top: 33%;
+		font-size: 140%;
+		left: 26.5%;
+	}
+}
+
+@media(max-width: 1366px) {
+	.textimg {
+		top: 23%;
+		left: 30%;
+		font-size: 257%;
+	}
+
+
+	.textimg2 {
+		font-size: 114%;
+		top: 37%;
+		left: 74%;
+		right: -5%;
+	}
+
+	.textimg3 {
+		font-size: 120%;
+		top: 71%;
+		left: 22%;
+	}
+
+	.textimg4 {
+		font-size: 120%;
+		top: 62%;
+		left: 70%;
+	}
+
+
+	.testoSBey {
+		left: 29%;
+		font-size: 110%;
+		top: 35%;
+	}
+
+	.testoSBey2 {
+		top: 38.5%;
+		font-size: 120%;
+		left: 28.5%;
+	}
+}
+
+@media(max-width: 768px) {
+	.textimg {
+		top: 17%;
+		left: 34%;
+		font-size: 223%;
+	}
+
+
+	.textimg2 {
+		font-size: 102%;
+		top: 45%;
+		left: 70%;
+		right: -7%;
+	}
+
+	.textimg3 {
+		font-size: 107%;
+		top: 63%;
+		left: 22%
+	}
+
+	.textimg4 {
+		font-size: 95%;
+		top: 87%;
+		left: 72%;
+	}
+
+
+	.testoSBey {
+		left: 36%;
+		top: 30%;
+		font-size: 100%;
+	}
+
+	.testoSBey2 {
+		top: 32%;
+		font-size: 100%;
+		left: 50.5%;
+		right: 3%;
+	}
+
+	@media(max-width:411px) {
+		.textimg {
+			top: 17%;
+			left: 33%;
+			font-size: 175%;
+		}
+
+
+		.textimg2 {
+			font-size: 66%;
+			top: 45%;
+			left: 70%;
+			right: -7%;
+		}
+
+		.textimg3 {
+			font-size: 66%;
+			top: 59%;
+			left: 21%;
+		}
+
+		.textimg4 {
+			font-size: 66%;
+			top: 63%;
+			left: 71%;
+		}
+
+
+		.testoSBey {
+			left: 36%;
+			top: 36%;
+			font-size: 66%;
+		}
+
+		.testoSBey2 {
+			top: 39.5%;
+			font-size: 66%;
+			left: 35%;
+			right: 3%;
+		}
+
+		.testoresp {
+			font-size: 67%;
+		}
+	}
+}

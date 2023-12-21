@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,300&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+html {
+	height: 120%;
+	width: 100%;
+	background-color: #1e2628;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+.bottone {
+	background-color: #4CAF50;
+	/* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.ulinziale {
+	list-style: none;
+}
+
+.testotop {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #2c373a;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	font-size: 120%;
+	z-index: 2;
+}
+
+.nomeHotel {
+	font-size: 230%;
+	font-family: 'Playfair Display SC', serif;
+}
+
+/* utilizzo nav per includere uno spazio in cui inserire link, (mi è stato consigliato) */
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul li {
+	margin-right: 20px;
+	display: inline;
+
+}
+
+section {
+	position: absolute;
+	top: 20%;
+	padding: 40px;
+}
+
+.benvenuto {
+	font-size: 190%;
+	margin-bottom: 20px;
+}
+
+.testoBenv {
+	font-size: 108%;
+}
+
+@media (max-width:361px) {
+	section {
+		position: absolute;
+		top: 30%;
+		padding: 40px;
+	}
+
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+.tabella {
+	position: absolute;
+	top: 22%;
+}
+
+.Suite1 {
+	position: relative;
+	left: 42%;
+	font-size: 160%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divsuit1 {
+	font-family: Geneva, sans-serif;
+	width: 27%;
+	height: 391%;
+	position: absolute;
+	top: 27%;
+	left: 72%;
+
+}
+
+.textsuite1 {
+	position: absolute;
+	top: -1%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.textsuite2 {
+	position: absolute;
+	top: 5%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.textsuite3 {
+	position: absolute;
+	top: 14%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.tabella2 {
+	position: absolute;
+	top: 272%;
+}
+
+
+.Suite2 {
+	position: relative;
+	left: 42%;
+	font-size: 160%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divsuit2 {
+	font-family: Geneva, sans-serif;
+	width: 27%;
+	height: 391%;
+	position: absolute;
+	top: 278%;
+	left: 72%;
+}
+
+.textsuite1_0 {
+	position: absolute;
+	top: -1%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.textsuite2_0 {
+	position: absolute;
+	top: 4%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.textsuite3_0 {
+	position: absolute;
+	top: 14%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.tabella3 {
+	position: absolute;
+	top: 522%;
+}
+
+.Suite4 {
+	position: relative;
+	left: 42%;
+	font-size: 160%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.divsuit3 {
+	font-family: Geneva, sans-serif;
+	width: 27%;
+	height: 124%;
+	position: absolute;
+	top: 528%;
+	left: 72%;
+}
+
+.textsuite5 {
+	position: absolute;
+	top: -2%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.textsuite6 {
+	position: absolute;
+	top: 16%;
+	left: -2%;
+	font-size: 250%;
+}
+
+.textsuite7 {
+	position: absolute;
+	top: 51%;
+	left: -2%;
+	font-size: 250%;
+}
+@media(max-width: 1670px) {
+	.tabella {
+		position: absolute;
+		top: 26%;
+
+	}
+
+	img {
+		width: 82%;
+	}
+
+	.textsuite1 {
+		font-size: 191%;
+		top:1%
+	}
+
+	.textsuite2 {
+		top: 6%;
+		font-size: 191%;
+	}
+
+	.textsuite3 {
+		top: 14%;
+		font-size: 191%;
+	}
+
+	.tabella2 {
+		position: absolute;
+		top: 280%;
+	}
+
+	.tabella3 {
+		position: absolute;
+		top: 535%;
+	}
+
+	.textsuite1_0 {
+		font-size: 191%;
+		top: 66%;
+	}
+
+	.textsuite2_0 {
+		font-size: 191%;
+		top: 70%;
+	}
+
+	.textsuite3_0 {
+		font-size: 191%;
+		top: 79%;
+	}
+
+	.textsuite5 {
+		font-size: 191%;
+		top: -200%;
+	}
+
+	.textsuite6 {
+		font-size: 191%;
+		top: -185%;
+	}
+
+	.textsuite7 {
+		font-size: 191%;
+		top: -155%;
+	}
+
+}
+@media(max-width: 1366px) {
+	.tabella {
+		position: absolute;
+		top: 26%;
+
+	}
+
+	img {
+		width: 70%;
+	}
+
+	.textsuite1 {
+		font-size: 191%;
+	}
+
+	.textsuite2 {
+		top: 5%;
+		font-size: 191%;
+	}
+
+	.textsuite3 {
+		top: 16%;
+		font-size: 191%;
+	}
+
+	.tabella2 {
+		position: absolute;
+		top: 243%;
+	}
+
+	.tabella3 {
+		position: absolute;
+		top: 459%;
+	}
+
+	.textsuite1_0 {
+		font-size: 191%;
+		top: -8%;
+	}
+
+	.textsuite2_0 {
+		font-size: 191%;
+		top: -3%;
+	}
+
+	.textsuite3_0 {
+		font-size: 191%;
+		top: 7%;
+	}
+
+	.textsuite5 {
+		font-size: 191%;
+		top: -55%;
+	}
+
+	.textsuite6 {
+		font-size: 191%;
+		top: -36%;
+	}
+
+	.textsuite7 {
+		font-size: 191%;
+		top: 1%;
+	}
+
+}
+
+@media(max-width:768px) {
+	.tabella {
+		position: absolute;
+		top: 19%;
+
+	}
+
+	.divsuit1 {
+		height: 100%;
+	}
+
+	.divsuit2 {
+		height: 100%;
+	}
+
+	.divsuit3 {
+		height: 100%;
+	}
+
+	img {
+		width: 65%;
+	}
+
+	.textsuite1 {
+		font-size: 135%;
+		left: -26%;
+		top: -6.5%;
+	}
+
+	.textsuite2 {
+		font-size: 135%;
+		left: -26%;
+		top: 6.5%;
+	}
+
+	.textsuite3 {
+		font-size: 135%;
+		left: -26%;
+		top: 29.5%;
+	}
+
+	.tabella2 {
+		position: absolute;
+		top: 106%
+	}
+
+	.tabella3 {
+		position: absolute;
+		top: 193%;
+	}
+
+	.textsuite1_0 {
+		font-size: 135%;
+		left: -26%;
+		top: -169.5%;
+	}
+
+	.textsuite2_0 {
+		font-size: 135%;
+		left: -26%;
+		top: -159.5%;
+	}
+
+	.textsuite3_0 {
+		font-size: 135%;
+		left: -26%;
+		top: -136.5%;
+	}
+
+	.textsuite5 {
+		font-size: 135%;
+		left: -26%;
+		top: -332.5%;
+	}
+
+	.textsuite6 {
+		font-size: 135%;
+		left: -26%;
+		top: -320.5%;
+	}
+
+	.textsuite7 {
+		font-size: 135%;
+		left: -26%;
+		    top: -295.5%;
+	}
+
+	.Suite1 {
+		position: relative;
+		left: 22%
+	}
+
+	.Suite2 {
+		position: relative;
+		left: 22%
+	}
+
+	.Suite4 {
+		position: relative;
+		left: 22%
+	}
+
+}
